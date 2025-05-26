@@ -77,7 +77,6 @@ export class EVENT_WORKERS extends cdk.Stack {
 			timeout: cdk.Duration.seconds(10),
 			logGroup: new logs.LogGroup(this, "ew-sqs-worker-log-group", {
 				logGroupName: `/ew-sqs-worker`,
-				retention: logs.RetentionDays.ONE_YEAR,
 			}),
 		});
 
