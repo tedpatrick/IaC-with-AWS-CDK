@@ -32,7 +32,6 @@ export class WEB_BACKEND extends cdk.Stack {
 			environment: {},
 			logGroup: new logs.LogGroup(this, "wb-api-log-group", {
 				logGroupName: `/wb-api`,
-				retention: logs.RetentionDays.ONE_YEAR,
 			}),
 		});
 
