@@ -1,0 +1,23 @@
+{
+	"name": "event-workers",
+	"version": "0.1.0",
+	"author": "Ted Patrick",
+	"license": "MIT",
+	"description": "AWS CDK stack for event workers with SQS and Lambda using Python and boto3",
+	"scripts": {
+		"bootstrap": "cdk bootstrap",
+		"build": "tsc --noemit",
+		"cdk": "cdk",
+		"deploy": "cdk deploy --require-approval never --outputs-file outputs.json",
+		"destroy": "cdk destroy --force"
+	},
+	"dependencies": {
+		"@types/node": "22.15.21",
+		"aws-cdk": "2.1016.1",
+		"aws-cdk-lib": "2.198.0",
+		"constructs": "10.4.2",
+		"source-map-support": "0.5.21",
+		"ts-node": "10.9.2",
+		"typescript": "5.8.3"
+	}
+}
