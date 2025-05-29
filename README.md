@@ -1,11 +1,13 @@
 # IaC-with-AWS-CDK
 
 This repository is a collection of IaC (Infrastructure as Code) using AWS CDK.
-There are four stacks:
+There are three stacks:
 - empty
 - web_backend
 - event_workers
-- mystery
+
+
+[SLIDES.pdf](https://github.com/tedpatrick/IaC-with-AWS-CDK/blob/main/SLIDES.pdf
 
 
 ## Prerequisites
