@@ -1,5 +1,6 @@
 import * as cdk from "aws-cdk-lib";
 import { Construct } from "constructs";
+import * as s3 from "aws-cdk-lib/aws-s3";
 
 export class EMPTY extends cdk.Stack {
 	constructor(scope: Construct, id: string, props?: cdk.StackProps) {
@@ -7,6 +8,11 @@ export class EMPTY extends cdk.Stack {
 
 		// CDK Constructs HERE
 
+		// s3
+		const s3_bucket = new s3.Bucket(this, "bew-empty-bucket", {
+			bucketName: "bew-empty-bucket",
+			removalPolicy: cdk.RemovalPolicy.RETAIN,
+		});
 		
 
 	}
