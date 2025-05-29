@@ -7,7 +7,8 @@ There are three stacks:
 - event_workers
 
 
-[SLIDES.pdf](https://github.com/tedpatrick/IaC-with-AWS-CDK/blob/main/SLIDES.pdf
+Slides from presentation at BEW:
+https://github.com/tedpatrick/IaC-with-AWS-CDK/blob/main/SLIDES.pdf
 
 
 ## Prerequisites
